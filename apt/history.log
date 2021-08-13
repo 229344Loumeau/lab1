@@ -23,3 +23,9 @@ Start-Date: 2021-04-30  23:38:30
 Commandline: apt-get install --assume-yes ec2-instance-connect
 Install: ec2-instance-connect:amd64 (1.1.12+dfsg1-0ubuntu3.20.04.1)
 End-Date: 2021-04-30  23:38:31
+
+Start-Date: 2021-08-13  17:22:49
+Commandline: apt-get install python
+Requested-By: ubuntu (1000)
+Install: libpython2-stdlib:amd64 (2.7.17-2ubuntu4, automatic), python2.7-minimal:amd64 (2.7.18-1~20.04.1, automatic), python2.7:amd64 (2.7.18-1~20.04.1, automatic), python2:amd64 (2.7.17-2ubuntu4, automatic), python2-minimal:amd64 (2.7.17-2ubuntu4, automatic), python-is-python2:amd64 (2.7.17-4), libpython2.7-minimal:amd64 (2.7.18-1~20.04.1, automatic), libpython2.7-stdlib:amd64 (2.7.18-1~20.04.1, automatic)
+End-Date: 2021-08-13  17:23:27

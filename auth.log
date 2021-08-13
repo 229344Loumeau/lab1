@@ -49,3 +49,25 @@ Aug 13 17:12:42 ip-172-31-42-60 sudo: pam_unix(sudo:session): session opened for
 Aug 13 17:12:42 ip-172-31-42-60 sudo: pam_unix(sudo:session): session closed for user root
 Aug 13 17:13:12 ip-172-31-42-60 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git add amazon apt auth.log btmp cloud-init-output.log cloud-init.log dist-upgrade dmesg dpkg.log journal kern.log landscape lastlog private syslog unattended-upgrades wtmp
 Aug 13 17:13:12 ip-172-31-42-60 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 13 17:13:12 ip-172-31-42-60 sudo: pam_unix(sudo:session): session closed for user root
+Aug 13 17:13:39 ip-172-31-42-60 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git commit -m First commit
+Aug 13 17:13:39 ip-172-31-42-60 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 13 17:13:39 ip-172-31-42-60 sudo: pam_unix(sudo:session): session closed for user root
+Aug 13 17:13:59 ip-172-31-42-60 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git push -u origin master
+Aug 13 17:13:59 ip-172-31-42-60 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 13 17:14:14 ip-172-31-42-60 sudo: pam_unix(sudo:session): session closed for user root
+Aug 13 17:17:01 ip-172-31-42-60 CRON[1638]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 13 17:17:01 ip-172-31-42-60 CRON[1638]: pam_unix(cron:session): session closed for user root
+Aug 13 17:18:01 ip-172-31-42-60 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git remote add origin git@github.com:229344Loumeau/lab1.git
+Aug 13 17:18:01 ip-172-31-42-60 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 13 17:18:01 ip-172-31-42-60 sudo: pam_unix(sudo:session): session closed for user root
+Aug 13 17:20:19 ip-172-31-42-60 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git push -u origin master
+Aug 13 17:20:19 ip-172-31-42-60 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 13 17:20:31 ip-172-31-42-60 sudo: pam_unix(sudo:session): session closed for user root
+Aug 13 17:21:20 ip-172-31-42-60 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/su
+Aug 13 17:21:20 ip-172-31-42-60 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 13 17:21:20 ip-172-31-42-60 su: (to root) ubuntu on pts/0
+Aug 13 17:21:20 ip-172-31-42-60 su: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
+Aug 13 17:21:45 ip-172-31-42-60 sudo:     root : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/apt-get update
+Aug 13 17:21:45 ip-172-31-42-60 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 13 17:21:57 ip-172-31-42-60 sudo: pam_unix(sudo:session): session closed for user root
