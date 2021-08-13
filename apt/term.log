@@ -1,0 +1,150 @@
+
+Log started: 2021-04-30  23:36:07
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 63145 files and directories currently installed.)
+Removing linux-virtual (5.4.0.72.75) ...
+Removing linux-headers-virtual (5.4.0.72.75) ...
+Removing linux-headers-generic (5.4.0.72.75) ...
+Removing linux-headers-5.4.0-72-generic (5.4.0-72.80) ...
+Removing linux-headers-5.4.0-72 (5.4.0-72.80) ...
+Removing linux-image-virtual (5.4.0.72.75) ...
+Removing linux-image-5.4.0-72-generic (5.4.0-72.80) ...
+W: Last kernel image has been removed, so removing the default symlinks
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.4.0-72-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/50-cloudimg-settings.cfg'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+done
+Removing linux-modules-5.4.0-72-generic (5.4.0-72.80) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 32085 files and directories currently installed.)
+Purging configuration files for linux-image-5.4.0-72-generic (5.4.0-72.80) ...
+W: Last kernel image has been removed, so removing the default symlinks
+Purging configuration files for linux-modules-5.4.0-72-generic (5.4.0-72.80) ...
+Log ended: 2021-04-30  23:36:20
+
+Log started: 2021-04-30  23:36:35
+Selecting previously unselected package iucode-tool.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 32084 files and directories currently installed.)
+Preparing to unpack .../00-iucode-tool_2.3.1-1_amd64.deb ...
+Unpacking iucode-tool (2.3.1-1) ...
+Selecting previously unselected package linux-modules-5.4.0-1045-aws.
+Preparing to unpack .../01-linux-modules-5.4.0-1045-aws_5.4.0-1045.47_amd64.deb ...
+Unpacking linux-modules-5.4.0-1045-aws (5.4.0-1045.47) ...
+Selecting previously unselected package linux-image-5.4.0-1045-aws.
+Preparing to unpack .../02-linux-image-5.4.0-1045-aws_5.4.0-1045.47_amd64.deb ...
+Unpacking linux-image-5.4.0-1045-aws (5.4.0-1045.47) ...
+Selecting previously unselected package intel-microcode.
+Preparing to unpack .../03-intel-microcode_3.20201110.0ubuntu0.20.04.2_amd64.deb ...
+Unpacking intel-microcode (3.20201110.0ubuntu0.20.04.2) ...
+Selecting previously unselected package amd64-microcode.
+Preparing to unpack .../04-amd64-microcode_3.20191218.1ubuntu1_amd64.deb ...
+Unpacking amd64-microcode (3.20191218.1ubuntu1) ...
+Selecting previously unselected package microcode-initrd.
+Preparing to unpack .../05-microcode-initrd_2~20.04.0_amd64.deb ...
+Unpacking microcode-initrd (2~20.04.0) ...
+Selecting previously unselected package linux-image-aws.
+Preparing to unpack .../06-linux-image-aws_5.4.0.1045.46_amd64.deb ...
+Unpacking linux-image-aws (5.4.0.1045.46) ...
+Selecting previously unselected package linux-aws-headers-5.4.0-1045.
+Preparing to unpack .../07-linux-aws-headers-5.4.0-1045_5.4.0-1045.47_all.deb ...
+Unpacking linux-aws-headers-5.4.0-1045 (5.4.0-1045.47) ...
+Selecting previously unselected package linux-headers-5.4.0-1045-aws.
+Preparing to unpack .../08-linux-headers-5.4.0-1045-aws_5.4.0-1045.47_amd64.deb ...
+Unpacking linux-headers-5.4.0-1045-aws (5.4.0-1045.47) ...
+Selecting previously unselected package linux-headers-aws.
+Preparing to unpack .../09-linux-headers-aws_5.4.0.1045.46_amd64.deb ...
+Unpacking linux-headers-aws (5.4.0.1045.46) ...
+Selecting previously unselected package linux-aws.
+Preparing to unpack .../10-linux-aws_5.4.0.1045.46_amd64.deb ...
+Unpacking linux-aws (5.4.0.1045.46) ...
+Setting up iucode-tool (2.3.1-1) ...
+Setting up intel-microcode (3.20201110.0ubuntu0.20.04.2) ...
+update-initramfs: deferring update (trigger activated)
+intel-microcode: microcode will be updated at next boot
+Setting up linux-aws-headers-5.4.0-1045 (5.4.0-1045.47) ...
+Setting up amd64-microcode (3.20191218.1ubuntu1) ...
+update-initramfs: deferring update (trigger activated)
+amd64-microcode: microcode will be updated at next boot
+Setting up microcode-initrd (2~20.04.0) ...
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/50-cloudimg-settings.cfg'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.4.0-1045-aws
+Found initrd image: /boot/microcode.cpio
+done
+Setting up linux-headers-5.4.0-1045-aws (5.4.0-1045.47) ...
+Setting up linux-modules-5.4.0-1045-aws (5.4.0-1045.47) ...
+Setting up linux-image-5.4.0-1045-aws (5.4.0-1045.47) ...
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-5.4.0-1045-aws
+I: /boot/initrd.img.old is now a symlink to initrd.img-5.4.0-1045-aws
+I: /boot/vmlinuz is now a symlink to vmlinuz-5.4.0-1045-aws
+I: /boot/initrd.img is now a symlink to initrd.img-5.4.0-1045-aws
+Setting up linux-headers-aws (5.4.0.1045.46) ...
+Setting up linux-image-aws (5.4.0.1045.46) ...
+Setting up linux-aws (5.4.0.1045.46) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for initramfs-tools (0.136ubuntu6.4) ...
+Processing triggers for linux-image-5.4.0-1045-aws (5.4.0-1045.47) ...
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-5.4.0-1045-aws
+cryptsetup: ERROR: Couldn't resolve device /dev/vdb
+/etc/kernel/postinst.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/50-cloudimg-settings.cfg'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.4.0-1045-aws
+Found initrd image: /boot/microcode.cpio /boot/initrd.img-5.4.0-1045-aws
+done
+Log ended: 2021-04-30  23:37:59
+
+Log started: 2021-04-30  23:38:15
+Selecting previously unselected package hibagent.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 60079 files and directories currently installed.)
+Preparing to unpack .../hibagent_1.0.1-0ubuntu1_all.deb ...
+Unpacking hibagent (1.0.1-0ubuntu1) ...
+Setting up hibagent (1.0.1-0ubuntu1) ...
+Processing triggers for systemd (245.4-4ubuntu3.6) ...
+Log ended: 2021-04-30  23:38:15
+
+Log started: 2021-04-30  23:38:21
+Selecting previously unselected package acpid.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 60092 files and directories currently installed.)
+Preparing to unpack .../acpid_1%3a2.0.32-1ubuntu1_amd64.deb ...
+Unpacking acpid (1:2.0.32-1ubuntu1) ...
+Selecting previously unselected package ec2-hibinit-agent.
+Preparing to unpack .../ec2-hibinit-agent_1.0.0-0ubuntu9.1_all.deb ...
+Unpacking ec2-hibinit-agent (1.0.0-0ubuntu9.1) ...
+Setting up acpid (1:2.0.32-1ubuntu1) ...
+Running in chroot, ignoring request.
+All runlevel operations denied by policy
+invoke-rc.d: policy-rc.d denied execution of start.
+Created symlink /etc/systemd/system/sockets.target.wants/acpid.socket -> /lib/systemd/system/acpid.socket.
+Created symlink /etc/systemd/system/paths.target.wants/acpid.path -> /lib/systemd/system/acpid.path.
+Setting up ec2-hibinit-agent (1.0.0-0ubuntu9.1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/hibinit-agent.service -> /lib/systemd/system/hibinit-agent.service.
+Running in chroot, ignoring request.
+All runlevel operations denied by policy
+invoke-rc.d: policy-rc.d denied execution of restart.
+All runlevel operations denied by policy
+/usr/sbin/policy-rc.d returned 101, not running 'restart systemd-logind.service'
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for systemd (245.4-4ubuntu3.6) ...
+Log ended: 2021-04-30  23:38:24
+
+Log started: 2021-04-30  23:38:30
+Selecting previously unselected package ec2-instance-connect.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 60138 files and directories currently installed.)
+Preparing to unpack .../ec2-instance-connect_1.1.12+dfsg1-0ubuntu3.20.04.1_all.deb ...
+Created system user ec2-instance-connect
+Unpacking ec2-instance-connect (1.1.12+dfsg1-0ubuntu3.20.04.1) ...
+Setting up ec2-instance-connect (1.1.12+dfsg1-0ubuntu3.20.04.1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/ec2-instance-connect.service -> /lib/systemd/system/ec2-instance-connect.service.
+Running in chroot, ignoring request: daemon-reload
+sshd override added, restarting daemon
+All runlevel operations denied by policy
+/usr/sbin/policy-rc.d returned 101, not running 'restart ssh.service'
+Log ended: 2021-04-30  23:38:31

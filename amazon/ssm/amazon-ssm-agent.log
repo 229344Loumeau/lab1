@@ -1,0 +1,31 @@
+2021-08-13 17:07:04 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2021-08-13 17:07:04 INFO [amazon-ssm-agent] amazon-ssm-agent - v3.0.529.0
+2021-08-13 17:07:04 INFO [amazon-ssm-agent] OS: linux, Arch: amd64
+2021-08-13 17:07:05 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] [WorkerProvider] Worker ssm-agent-worker is not running, starting worker process
+2021-08-13 17:07:05 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] [WorkerProvider] Worker ssm-agent-worker (pid:1055) started
+2021-08-13 17:07:05 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] Monitor long running worker health every 60 seconds
+2021-08-13 17:07:06 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2021-08-13 17:07:07 INFO [ssm-agent-worker] Dial to Core Agent broadcast channel
+2021-08-13 17:07:07 INFO [ssm-agent-worker] Start to listen to Core Agent termination channel
+2021-08-13 17:07:07 INFO [ssm-agent-worker] Dial to Core Agent broadcast channel
+2021-08-13 17:07:07 INFO [ssm-agent-worker] Start to listen to Core Agent health channel
+2021-08-13 17:07:07 INFO [ssm-agent-worker] Create new startup processor
+2021-08-13 17:07:07 INFO [ssm-agent-worker] [StartupProcessor] Executing startup processor tasks
+2021-08-13 17:07:07 INFO [ssm-agent-worker] [StartupProcessor] Write to serial port: Amazon SSM Agent v3.0.529.0 is running
+2021-08-13 17:07:07 INFO [ssm-agent-worker] [StartupProcessor] Write to serial port: OsProductName: Ubuntu
+2021-08-13 17:07:07 INFO [ssm-agent-worker] [StartupProcessor] Write to serial port: OsVersion: 20.04
+2021-08-13 17:07:07 INFO [ssm-agent-worker] Entering SSM Agent hibernate - EC2RoleRequestError: no EC2 instance role found
+caused by: EC2MetadataError: failed to make EC2Metadata request
+	status code: 404, request id: 
+caused by: <?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+

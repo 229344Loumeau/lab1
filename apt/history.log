@@ -1,0 +1,25 @@
+
+Start-Date: 2021-04-30  23:36:07
+Commandline: apt-get remove --purge --assume-yes ^linux-.* linux-base+
+Purge: linux-headers-generic:amd64 (5.4.0.72.75), linux-image-5.4.0-72-generic:amd64 (5.4.0-72.80), linux-virtual:amd64 (5.4.0.72.75), linux-headers-5.4.0-72-generic:amd64 (5.4.0-72.80), linux-headers-5.4.0-72:amd64 (5.4.0-72.80), linux-headers-virtual:amd64 (5.4.0.72.75), linux-modules-5.4.0-72-generic:amd64 (5.4.0-72.80), linux-image-virtual:amd64 (5.4.0.72.75)
+End-Date: 2021-04-30  23:36:20
+
+Start-Date: 2021-04-30  23:36:35
+Commandline: apt-get install --assume-yes linux-aws
+Install: intel-microcode:amd64 (3.20201110.0ubuntu0.20.04.2, automatic), linux-aws-headers-5.4.0-1045:amd64 (5.4.0-1045.47, automatic), iucode-tool:amd64 (2.3.1-1, automatic), linux-headers-aws:amd64 (5.4.0.1045.46, automatic), linux-headers-5.4.0-1045-aws:amd64 (5.4.0-1045.47, automatic), linux-aws:amd64 (5.4.0.1045.46), amd64-microcode:amd64 (3.20191218.1ubuntu1, automatic), microcode-initrd:amd64 (2~20.04.0, automatic), linux-image-aws:amd64 (5.4.0.1045.46, automatic), linux-image-5.4.0-1045-aws:amd64 (5.4.0-1045.47, automatic), linux-modules-5.4.0-1045-aws:amd64 (5.4.0-1045.47, automatic)
+End-Date: 2021-04-30  23:37:59
+
+Start-Date: 2021-04-30  23:38:15
+Commandline: apt-get install --assume-yes hibagent
+Install: hibagent:amd64 (1.0.1-0ubuntu1)
+End-Date: 2021-04-30  23:38:15
+
+Start-Date: 2021-04-30  23:38:21
+Commandline: apt-get install --assume-yes ec2-hibinit-agent
+Install: acpid:amd64 (1:2.0.32-1ubuntu1, automatic), ec2-hibinit-agent:amd64 (1.0.0-0ubuntu9.1)
+End-Date: 2021-04-30  23:38:24
+
+Start-Date: 2021-04-30  23:38:30
+Commandline: apt-get install --assume-yes ec2-instance-connect
+Install: ec2-instance-connect:amd64 (1.1.12+dfsg1-0ubuntu3.20.04.1)
+End-Date: 2021-04-30  23:38:31

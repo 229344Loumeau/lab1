@@ -1,0 +1,51 @@
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: new group: name=ubuntu, GID=1000
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash, from=none
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to group 'adm'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to group 'dialout'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to group 'cdrom'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to group 'floppy'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to group 'sudo'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to group 'audio'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to group 'dip'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to group 'video'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to group 'plugdev'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to group 'netdev'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to group 'lxd'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to shadow group 'adm'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to shadow group 'dialout'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to shadow group 'cdrom'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to shadow group 'floppy'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to shadow group 'sudo'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to shadow group 'audio'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to shadow group 'dip'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to shadow group 'video'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to shadow group 'plugdev'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to shadow group 'netdev'
+Aug 13 17:06:57 ip-172-31-42-60 useradd[421]: add 'ubuntu' to shadow group 'lxd'
+Aug 13 17:06:57 ip-172-31-42-60 passwd[430]: password for 'ubuntu' changed by 'root'
+Aug 13 17:06:57 ip-172-31-42-60 systemd-logind[467]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug 13 17:06:57 ip-172-31-42-60 systemd-logind[467]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Aug 13 17:06:57 ip-172-31-42-60 systemd-logind[467]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Aug 13 17:06:57 ip-172-31-42-60 systemd-logind[467]: New seat seat0.
+Aug 13 17:06:58 ip-172-31-42-60 sshd[634]: Server listening on 0.0.0.0 port 22.
+Aug 13 17:06:58 ip-172-31-42-60 sshd[634]: Server listening on :: port 22.
+Aug 13 17:07:03 ip-172-31-42-60 useradd[894]: new user: name=lxd, UID=998, GID=100, home=/var/snap/lxd/common/lxd, shell=/bin/false, from=none
+Aug 13 17:07:32 ip-172-31-42-60 ec2-instance-connect[1267]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:803nElqOnQDaIk7Y/jYMkAuIvxpgN6XDIS+MXDHLOkg
+Aug 13 17:07:32 ip-172-31-42-60 ec2-instance-connect[1299]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:803nElqOnQDaIk7Y/jYMkAuIvxpgN6XDIS+MXDHLOkg, request-id: a8d33d26-a94f-429f-b424-5c63f4c2afe1, for IAM principal: arn:aws:iam::322132969389:root
+Aug 13 17:07:33 ip-172-31-42-60 ec2-instance-connect[1442]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:803nElqOnQDaIk7Y/jYMkAuIvxpgN6XDIS+MXDHLOkg
+Aug 13 17:07:33 ip-172-31-42-60 ec2-instance-connect[1474]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:803nElqOnQDaIk7Y/jYMkAuIvxpgN6XDIS+MXDHLOkg, request-id: a8d33d26-a94f-429f-b424-5c63f4c2afe1, for IAM principal: arn:aws:iam::322132969389:root
+Aug 13 17:07:33 ip-172-31-42-60 sshd[1125]: Accepted publickey for ubuntu from 18.206.107.25 port 21434 ssh2: RSA SHA256:803nElqOnQDaIk7Y/jYMkAuIvxpgN6XDIS+MXDHLOkg
+Aug 13 17:07:33 ip-172-31-42-60 sshd[1125]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 13 17:07:33 ip-172-31-42-60 systemd-logind[467]: New session 1 of user ubuntu.
+Aug 13 17:07:33 ip-172-31-42-60 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Aug 13 17:09:41 ip-172-31-42-60 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git init
+Aug 13 17:09:41 ip-172-31-42-60 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 13 17:09:41 ip-172-31-42-60 sudo: pam_unix(sudo:session): session closed for user root
+Aug 13 17:11:45 ip-172-31-42-60 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git remote add origin https://github.com/229344Loumeau/lab1.git
+Aug 13 17:11:45 ip-172-31-42-60 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 13 17:11:45 ip-172-31-42-60 sudo: pam_unix(sudo:session): session closed for user root
+Aug 13 17:12:42 ip-172-31-42-60 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git pull -u origin main
+Aug 13 17:12:42 ip-172-31-42-60 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 13 17:12:42 ip-172-31-42-60 sudo: pam_unix(sudo:session): session closed for user root
+Aug 13 17:13:12 ip-172-31-42-60 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git add amazon apt auth.log btmp cloud-init-output.log cloud-init.log dist-upgrade dmesg dpkg.log journal kern.log landscape lastlog private syslog unattended-upgrades wtmp
+Aug 13 17:13:12 ip-172-31-42-60 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
